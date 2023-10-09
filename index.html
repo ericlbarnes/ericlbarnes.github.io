@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eric L. Barnes</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="Refresh" content="0; url='https://newsletter.ericlbarnes.com'">
 </head>
 
 <body class="flex h-full flex-col bg-zinc-50 dark:bg-black">
@@ -16,8 +18,32 @@
         </div>
     </div>
 
-    <div class="relative">
+    <div class="h-[160px] sm:h-[148px] md:h-[180px]"></div>
+    <div class="relative min-h-screen">
         <div style="height:var(--content-offset)"></div>
+        <header>
+            <div class="sm:px-8 top-0 order-last -mb-3 pt-3" style="position:var(--header-position)">
+                <div class="mx-auto w-full max-w-7xl lg:px-8">
+                    <div class="relative px-4 sm:px-8 lg:px-12">
+                        <div class="mx-auto max-w-2xl lg:max-w-5xl">
+                            <div class="top-[var(--avatar-top,theme(spacing.3))] w-full"
+                                style="position:var(--header-inner-position)">
+                                <div class="relative">
+                                    <div class="absolute left-0 top-3 origin-left transition-opacity h-10 w-10 rounded-full bg-white/90 p-0.5 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:ring-white/10"
+                                        style="opacity:var(--avatar-border-opacity, 0);transform:var(--avatar-border-transform)">
+                                    </div><a aria-label="Home" class="block h-16 w-16 origin-left pointer-events-auto"
+                                        style="transform:var(--avatar-image-transform)" href="/"><img alt=""
+                                            fetchpriority="high" width="512" height="512" decoding="async" data-nimg="1"
+                                            class="rounded-full bg-zinc-100 object-cover dark:bg-zinc-800 h-16 w-16"
+                                            style="color:transparent" sizes="4rem"
+                                            src="imgs/ericlbarnes.jpeg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
         <main>
             <div class="sm:px-8 mt-9">
                 <div class="mx-auto max-w-7xl lg:px-8">
@@ -77,8 +103,8 @@
                                 <!-- <script src="https://f.convertkit.com/ckjs/ck.5.js"></script> -->
                                 <form action="https://app.convertkit.com/forms/3202836/subscriptions"
                                     class="my-12 rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40"
-                                    method="post" data-sv-form="3202836" data-uid="d265fdb66f" data-format="inline" data-version="5"
-                                    >
+                                    method="post" data-sv-form="3202836" data-uid="d265fdb66f" data-format="inline"
+                                    data-version="5">
                                     <h2 class="flex text-sm font-semibold text-zinc-900 dark:text-zinc-100">
                                         <svg viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round"
                                             stroke-linejoin="round" aria-hidden="true" class="h-6 w-6 flex-none">
@@ -93,8 +119,8 @@
                                     </h2>
                                     <p class="mt-2 text-sm text-zinc-600 dark:text-zinc-400">Get notified when I publish
                                         something new, and unsubscribe at any time.</p>
-                                    <div class="mt-6 flex"><input type="email" name="email_address" placeholder="Email address"
-                                            aria-label="Email address" required=""
+                                    <div class="mt-6 flex"><input type="email" name="email_address"
+                                            placeholder="Email address" aria-label="Email address" required=""
                                             class="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10 sm:text-sm">
                                         <button
                                             class="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-800 font-semibold text-zinc-100 hover:bg-zinc-700 active:bg-zinc-800 active:text-zinc-100/70 dark:bg-zinc-700 dark:hover:bg-zinc-600 dark:active:bg-zinc-700 dark:active:text-zinc-100/70 ml-4 flex-none"
